@@ -1,0 +1,61 @@
+.header__heading {
+  font-family: 'Fraunces';
+  color: var(--white);
+  text-align: center;
+}
+
+.cta-section__heading {
+  font-family: 'Fraunces';
+  color: var(--white);
+  text-align: center;
+}
+
+.main__heading {
+  font-family: 'Fraunces';
+  color: var(--white);
+  text-align: center;
+}
+
+.header__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--eucaplyptus);
+  color: var(--dark-purple);
+}
+
+.cta-section__btn {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  font-family: 'Manrope', sans-serif;
+  background-color: var(--eucaplyptus);
+  color: var(--dark-purple);
+}
+
+.cta-section__btn:hover {
+  cursor: pointer;
+  border: 2px solid var(--eucaplyptus);
+  background-color: var(--dark-purple);
+  color: var(--eucaplyptus);
+  transition: all .2s;
+}
+
+.btn-secondary {
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  border-bottom: 3px solid var(--eucaplyptus);
+  color: var(--white);
+}
+
+.btn-secondary:hover {
+  cursor: pointer;
+  color: var(--eucaplyptus);
+  transition: all .3s;
+  
+}
+
+
+
+
+
