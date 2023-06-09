@@ -22,6 +22,7 @@
   align-items: center;
   background-color: var(--eucaplyptus);
   color: var(--dark-purple);
+  user-select: none;
 }
 
 .cta-section__btn {
@@ -31,6 +32,7 @@
   font-family: 'Manrope', sans-serif;
   background-color: var(--eucaplyptus);
   color: var(--dark-purple);
+  user-select: none;
 }
 
 .cta-section__btn:hover {
@@ -46,6 +48,7 @@
   text-align: center;
   border-bottom: 3px solid var(--eucaplyptus);
   color: var(--white);
+  user-select: none;
 }
 
 .btn-secondary:hover {
