@@ -1,4 +1,4 @@
-header {
+.header {
   display: flex;
   flex-direction: column;
   background-color: var(--dark-purple);
@@ -32,11 +32,11 @@ header {
   line-height: 50px;
 }
 
-.header__heading > span {
+/* .header__heading > span {
   display: inline-block;
   height: 55px;
   border-bottom: 3px solid var(--eucaplyptus);
-}
+} */
 
 .header__btn {
   margin-top: 40px;
@@ -45,7 +45,6 @@ header {
   font-size: 16px;
   padding-bottom: 1px;
   font-weight: 700;
-  
 }
 
 .header__btn:hover {
@@ -71,16 +70,14 @@ header {
 .main__image {
   display: flex;
   justify-content: center;
+  position: relative;
+  min-height: 155px;
 }
 
 .main__image-hero {
-  margin-top: -25%;
-  margin-left: 15px;
+  position: absolute;
+  bottom: 60px;
   width: 320px;
-}
-
-.main__topics {
-  margin-top: 69px;
 }
 
 .main__item {
@@ -101,10 +98,13 @@ header {
   margin-bottom: 24px;
   border: 1px solid var(--dark-purple);
   color: var(--dark-purple);
+  
 }
 
 .main__heading {
   margin-bottom: 16px;
+  font-size: 28px;
+  font-weight: 600;
   color: var(--dark-purple);
 }
 
@@ -123,7 +123,7 @@ header {
 }
 
 .main-bottom {
-  height: 35px;
+  height: 40px;
   width: 100vw;
   margin-bottom: 100px;
   border-radius: 0 0 100% 100%;
@@ -175,7 +175,7 @@ header {
   height: 281px;
 }
 
-footer {
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -195,4 +195,5 @@ footer {
 .footer__social-logo {
   height: 20px;
   width: 20px;
+  cursor: pointer;
 }
